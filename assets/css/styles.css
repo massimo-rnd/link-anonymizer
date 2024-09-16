@@ -1,0 +1,50 @@
+.shorting-section {
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.info-section {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.heading-div {
+  text-align: center;
+}
+
+.shorter-div {
+  text-align: center;
+}
+
+#urlInput {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.redirect-section {
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+#time {
+  font-size: 40px;
+  font-weight: 800;
+  color: red;
+}
+
+.home-btn {
+  text-align: center;
+}
+
+.script-container {
+  margin-top: 5vh;
+  text-align: center;
+}
+
