@@ -28,7 +28,7 @@ anonlinks.xyz is a PHP Link Anonymizer (Shortener) with Bootstrap 5 Frontend and
 1. Clone the repository into your /var/www/ folder:
    ```bash
    cd /var/www/
-   git clone https://github.com/massimo-rnd/nameland.git
+   git clone https://github.com/massimo-rnd/link-anonymizer.git
    ```
 2. Create a new Database:
    ```mysql
