@@ -32,4 +32,7 @@ const postData = {
     }
 }
 
+function copyLink(){ navigator.clipboard.writeText(document.getElementById('shortedUrl').textContent);
+}
+
 

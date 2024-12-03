@@ -1,50 +1,61 @@
-.shorting-section {
+body {
+  font-family: 'Inter';
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    width: 60%;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+  }
+}
+
+.card-container {
+  width: 90%;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10vh;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
 }
 
-.info-section {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+.nav-icons {
+  font-size: 20px;
 }
 
-.heading-div {
+.input-div {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.url-input {
+  width: 100%;
+  padding: 0px 30px 0px 30px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+.card-body {
   text-align: center;
 }
 
-.shorter-div {
-  text-align: center;
+.action-btn {
+  background-color: var(--bs-body-color);
+  color: white;
 }
 
-#urlInput {
-  width: 50%;
-  margin-right: 10px;
-}
-
-.redirect-section {
-  margin-top: 10vh;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  text-align: center;
+.action-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid var(--bs-body-color);
 }
 
 #time {
   font-size: 40px;
   font-weight: 800;
   color: red;
-}
-
-.home-btn {
-  text-align: center;
-}
-
-.script-container {
-  margin-top: 5vh;
-  text-align: center;
 }
 

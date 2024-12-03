@@ -33,7 +33,7 @@ function retrievePaste(keylink) {
                     // Handle the retrieved pastetext
                     console.log('Retrieved URL:', pastetext);
                    receivedUrl = pastetext;
-                var link = document.getElementById('skip-link');
+                var link = document.getElementById('skip-btn');
     link.href = pastetext;
                 var timeDisplay = document.getElementById('time');
     startCountdown(9, timeDisplay, pastetext);
