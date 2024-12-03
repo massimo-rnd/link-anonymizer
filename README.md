@@ -17,6 +17,12 @@
 
 anonlinks.xyz is a PHP Link Anonymizer (Shortener) with Bootstrap 5 Frontend and MySQL Database connection
 
+## ❗ IMPORTANT ❗
+
+Version 2.0 marks final version of anonlinks. This is due to the fact that I am abandoning this project.
+
+In case anyone is interested in taking over this project, feel free to do so.
+
 ## 🎯 Features
 
 - PHP Backend
@@ -60,12 +66,6 @@ Your shortened link is copied to your clipboard and will look like this:
 https://yoururl.tld/l?[XXXXXX]
 ```
 
-## 🚧 Roadmap
-
-- [ ] Create better design
-- [ ] Build Documentation
-
-Check out the [open issues](https://github.com/massimo-rnd/link-anonymizer/issues) for more.
 
 ## 🤝 Contributing
 
