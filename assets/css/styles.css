@@ -2,12 +2,22 @@ body {
   font-family: 'Inter';
 }
 
+@media (min-width: 768px) {
+  .card-container {
+    width: 60%;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+  }
+}
+
 .card-container {
-  width: 60%;
+  width: 90%;
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .nav-icons {
